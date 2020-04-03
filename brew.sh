@@ -13,6 +13,7 @@ brew upgrade
 brew install coreutils
 brew install moreutils
 brew install findutils
+brew install gnugp
 
 brew install automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl
 
@@ -39,6 +40,10 @@ brew install postgresql
 brew install redis
 brew cask install homebrew/cask-versions/adoptopenjdk8 # dependency for elasticsearch
 brew install elasticsearch
+
+# AWS crap
+brew install aws-elasticbeanstalk
+brew install awscli
 
 # Install more recent versions of some macOS tools.
 brew install vim
