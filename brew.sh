@@ -40,10 +40,12 @@ brew install postgresql
 brew install redis
 brew cask install homebrew/cask-versions/adoptopenjdk8 # dependency for elasticsearch
 brew install elasticsearch
+brew install github/gh/gh
 
 # AWS crap
 brew install aws-elasticbeanstalk
 brew install awscli
+brew cask install session-manager-plugin
 
 # Install more recent versions of some macOS tools.
 brew install vim

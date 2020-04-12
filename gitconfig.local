@@ -20,6 +20,9 @@
 	# Commit all changes
 	ca = !git add -A && git commit -av
 
+	# commit with message
+	cam="!git add . && git commit -m" # + commit message
+
 	# Switch to a branch, creating it if necessary
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
 
@@ -61,6 +64,14 @@
 
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
+
+	# Get the current branch name (not so useful in itself, but used in
+	# other aliases)
+	branch-name = "!git rev-parse --abbrev-ref HEAD"
+
+	# Push the current branch to the remote "origin", and set it to track
+	# the upstream branch
+	publish = "!git push -u origin $(git branch-name)"
 
 [core]
 	# Use custom `.gitignore` and `.gitattributes`
