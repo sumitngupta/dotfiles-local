@@ -49,7 +49,7 @@ brew cask install session-manager-plugin
 
 # Install more recent versions of some macOS tools.
 brew install vim
-brew install homebrew/php/php56 --with-gmp
+brew install homebrew/php/php56
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -76,32 +76,32 @@ brew tap caskroom/cask
 
 # Core Functionality
 echo Install Core Apps
-brew cask install --appdir="/Applications" alfred
-brew cask install --appdir="/Applications" little-snitch
-brew cask install --appdir="~/Applications" transmission
-brew cask install --appdir="~/Applications" vlc
-brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" java
+brew install --cask --appdir="/Applications" alfred
+brew install --cask --appdir="/Applications" little-snitch
+brew install --cask --appdir="~/Applications" transmission
+brew install --cask --appdir="~/Applications" vlc
+brew install --cask --appdir="~/Applications" iterm2
+brew install --cask --appdir="~/Applications" java
 
 # Development
 echo Install Dev Apps
-brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" rubymine
-brew cask install --appdir="/Applications" charles
-brew cask install --appdir="/Applications" easyfind
+brew install --cask --appdir="/Applications" atom
+brew install --cask --appdir="/Applications" rubymine
+brew install --cask --appdir="/Applications" charles
+brew install --cask --appdir="/Applications" easyfind
 
 # Google Slavery
 echo Install Google Apps
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" google-backup-and-sync
+brew install --cask --appdir="/Applications" google-chrome
+brew install --cask --appdir="/Applications" google-backup-and-sync
 
 # Nice to have
 echo Install Some additional Apps
-brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" spotify
-brew cask install --appdir="/Applications" droplr
-brew cask install --appdir="/Applications" franz
+brew install --cask --appdir="/Applications" firefox
+brew install --cask --appdir="/Applications" slack
+brew install --cask --appdir="/Applications" spotify
+brew install --cask --appdir="/Applications" droplr
+brew install --cask --appdir="/Applications" franz
 
 # Remove outdated versions from the cellar.
 brew cleanup
