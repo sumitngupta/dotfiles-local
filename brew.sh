@@ -77,13 +77,11 @@ brew tap caskroom/cask
 # Core Functionality
 echo Install Core Apps
 brew cask install --appdir="/Applications" alfred
-brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="~/Applications" transmission
 brew cask install --appdir="~/Applications" vlc
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
-brew cask install --appdir="~/Applications" flux
 
 # Development
 echo Install Dev Apps
