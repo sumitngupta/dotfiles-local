@@ -71,6 +71,8 @@ brew install heroku
 brew install rename
 brew install webkit2png
 
+brew install java
+
 brew tap phinze/cask
 brew tap caskroom/cask
 
@@ -81,7 +83,6 @@ brew install --cask --appdir="/Applications" little-snitch
 brew install --cask --appdir="~/Applications" transmission
 brew install --cask --appdir="~/Applications" vlc
 brew install --cask --appdir="~/Applications" iterm2
-brew install --cask --appdir="~/Applications" java
 
 # Development
 echo Install Dev Apps
